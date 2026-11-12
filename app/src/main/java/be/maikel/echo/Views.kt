@@ -19,7 +19,7 @@ object Palette {
     val GREEN = Color.parseColor("#51CF66")
 
     /** Une couleur par note (do = rouge … si = violet), comme un xylophone d'enfant. */
-    private val NOTE = intArrayOf(
+    private val NOTE = listOf(
         "#FF6B6B", "#FF8787", "#FF922B", "#FFA94D", "#FCC419", "#94D82D",
         "#51CF66", "#22B8CF", "#3BC9DB", "#4DABF7", "#748FFC", "#CC5DE8",
     ).map { Color.parseColor(it) }.toIntArray()
