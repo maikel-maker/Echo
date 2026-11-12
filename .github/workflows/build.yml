@@ -25,10 +25,16 @@ jobs:
           gradle-version: "8.9"
 
       - name: Tests du jeu
-        run: gradle testDebugUnitTest --no-daemon
+        run: |
+          mkdir -p out
+          set -o pipefail
+          gradle testDebugUnitTest --no-daemon --console=plain 2>&1 | tee out/log-tests.txt
 
       - name: Compiler l'APK
-        run: gradle assembleDebug --no-daemon
+        run: |
+          mkdir -p out
+          set -o pipefail
+          gradle assembleDebug --no-daemon --console=plain 2>&1 | tee out/log-apk.txt
 
       - name: Activer KVM
         run: |
