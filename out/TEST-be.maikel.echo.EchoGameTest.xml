@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="be.maikel.echo.EchoGameTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-12T08:20:14" hostname="runnervmwuk1x" time="0.038">
+  <properties/>
+  <testcase name="parrotSpeedsUp" classname="be.maikel.echo.EchoGameTest" time="0.033"/>
+  <testcase name="anyOctaveCounts" classname="be.maikel.echo.EchoGameTest" time="0.0"/>
+  <testcase name="sameSeedSameMelody" classname="be.maikel.echo.EchoGameTest" time="0.0"/>
+  <testcase name="melodyStaysInRangeAndStepsAreSmallAtFirst" classname="be.maikel.echo.EchoGameTest" time="0.0"/>
+  <testcase name="silenceTimesOut" classname="be.maikel.echo.EchoGameTest" time="0.002"/>
+  <testcase name="singingTheMelodyWinsTheRoundAndAddsANote" classname="be.maikel.echo.EchoGameTest" time="0.001"/>
+  <testcase name="holdingAWrongNoteLoses" classname="be.maikel.echo.EchoGameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
