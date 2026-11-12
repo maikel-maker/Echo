@@ -1,4 +1,4 @@
-name: Écho : build, tests et essai sur émulateur
+name: "Écho - build, tests et essai sur émulateur"
 
 on:
   push:
